@@ -90,6 +90,21 @@
       <p><?php echo $faq['text'] ?></p>
     <?php } ?>
   </main>
-  <footer></footer>
+  <footer>
+    <div class="content">
+      <div class="left">
+        <a href="#">Google</a>
+        <a href="#">Tutto su Google</a>
+        <a href="#">Privacy</a>
+        <a href="#">Termini</a>
+      </div>
+      <div class="right">
+        <select name="" id="">
+          <option value="it">Italiano</option>
+          <option value="en">Inglese</option>
+        </select>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
